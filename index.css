@@ -255,3 +255,9 @@ img {
     padding: 0;
 }
  
+#whatsapp {
+    position: fixed;
+    width: 40px;
+    top: 90%;
+    left: 80%;
+}
