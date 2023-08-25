@@ -125,7 +125,7 @@ img {
 }
 
 .texto-2 {
-    width: 300px;
+    width: 270px;
     text-align: justify;
 }
 
@@ -145,14 +145,6 @@ img {
     margin-left: 10px;
 }
 
-.fondo-habilidades {
-    background: linear-gradient(to right, white 0%, white 60%, rgba(17, 60, 90, 0.9) 60%,
-        rgba(17, 60, 90, 1) 100%);
-    margin: 7px 10px;
-    border-radius: 10px;
-    padding: 0;
-}
-
 .logos{
     display:flex;
     justify-content: space-around;
@@ -163,3 +155,103 @@ img {
 .logo{
     width: 60px;
 }
+
+/*HABILIDADES*/
+
+#fondo-habilidades-1{
+    background: linear-gradient(to right, white 0%, white 80%, rgba(17, 60, 90, 0.9) 80%,
+                rgba(17, 60, 90, 1) 100%);
+    margin: 7px 10px;
+    border-radius: 10px;
+    padding: 0;
+}
+ 
+#fondo-habilidades-2{
+    background: linear-gradient(to right, white 0%, white 75%, rgba(17, 60, 90, 0.9) 75%,
+                rgba(17, 60, 90, 1) 100%);
+    margin: 7px 10px;
+    border-radius: 10px;
+    padding: 0;
+}
+ 
+#fondo-habilidades-3{
+    background: linear-gradient(to right, white 0%, white 60%, rgba(17, 60, 90, 0.9) 60%,
+                rgba(17, 60, 90, 1) 100%);
+    margin: 7px 10px;
+    border-radius: 10px;
+    padding: 0;
+}
+ 
+#fondo-habilidades-4{
+    background: linear-gradient(to right, white 0%, white 85%, rgba(17, 60, 90, 0.9) 85%,
+                rgba(17, 60, 90, 1) 100%);
+    margin: 7px 10px;
+    border-radius: 10px;
+    padding: 0;
+}
+ 
+#fondo-habilidades-5{
+    background: linear-gradient(to right, white 0%, white 90%, rgba(17, 60, 90, 0.9) 90%,
+                rgba(17, 60, 90, 1) 100%);
+    margin: 7px 10px;
+    border-radius: 10px;
+    padding: 0;
+}
+/*SOFTWARES*/
+ 
+#fondo-softwares-1{
+    background: linear-gradient(to right, white 0%, white 80%, rgba(17, 60, 90, 0.9) 80%,
+                rgba(17, 60, 90, 1) 100%);
+    margin: 7px 10px;
+    border-radius: 10px;
+    padding: 0;
+}
+ 
+#fondo-softwares-2{
+    background: linear-gradient(to right, white 0%, white 70%, rgba(17, 60, 90, 0.9) 70%,
+                rgba(17, 60, 90, 1) 100%);
+    margin: 7px 10px;
+    border-radius: 10px;
+    padding: 0;
+}
+ 
+#fondo-softwares-3{
+    background: linear-gradient(to right, white 0%, white 80%, rgba(17, 60, 90, 0.9) 80%,
+                rgba(17, 60, 90, 1) 100%);
+    margin: 7px 10px;
+    border-radius: 10px;
+    padding: 0;
+}
+ 
+#fondo-softwares-4{
+    background: linear-gradient(to right, white 0%, white 75%, rgba(17, 60, 90, 0.9) 75%,
+                rgba(17, 60, 90, 1) 100%);
+    margin: 7px 10px;
+    border-radius: 10px;
+    padding: 0;
+}
+ 
+#fondo-softwares-5{
+    background: linear-gradient(to right, white 0%, white 75%, rgba(17, 60, 90, 0.9) 75%,
+                rgba(17, 60, 90, 1) 100%);
+    margin: 7px 10px;
+    border-radius: 10px;
+    padding: 0;
+}
+ 
+/*IDIOMAS*/
+
+#fondo-idioma-1{
+    background: white;
+    margin: 7px 10px;
+    border-radius: 10px;
+    padding: 0;
+}
+#fondo-idioma-2{
+    background:linear-gradient(to right, white 0%, white 80%, rgba(17, 60, 90, 0.9) 80%,
+            rgba(17, 60, 90, 1) 100%);
+    margin: 7px 10px;
+    border-radius: 10px;
+    padding: 0;
+}
+ 
