@@ -125,7 +125,7 @@ img {
 }
 
 .texto-2 {
-    width: 300px;
+    width: 270px;
     text-align: justify;
 }
 
@@ -144,14 +144,6 @@ img {
     text-align: center;
     margin-left: 10px;
 }
-
-/* .fondo-habilidades {
-    background: linear-gradient(to right, white 0%, white 60%, rgba(17, 60, 90, 0.9) 60%,
-        rgba(17, 60, 90, 1) 100%);
-    margin: 7px 10px;
-    border-radius: 10px;
-    padding: 0;
-} */
 
 .logos{
     display:flex;
@@ -247,5 +239,19 @@ img {
     padding: 0;
 }
  
+/*IDIOMAS*/
 
+#fondo-idioma-1{
+    background: white;
+    margin: 7px 10px;
+    border-radius: 10px;
+    padding: 0;
+}
+#fondo-idioma-2{
+    background:linear-gradient(to right, white 0%, white 80%, rgba(17, 60, 90, 0.9) 80%,
+            rgba(17, 60, 90, 1) 100%);
+    margin: 7px 10px;
+    border-radius: 10px;
+    padding: 0;
+}
  
