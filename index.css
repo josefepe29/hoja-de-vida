@@ -1,5 +1,5 @@
 * {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin: 0;
     padding: 0;
     font-family: 'Ruwudu', serif;
@@ -14,13 +14,14 @@ img {
 
     display:flex;
     justify-content: center;
-    align-items: stretch;
+    flex-wrap:wrap
 }
 
 #contenedor1{
     background: linear-gradient(white,#113c5a);
     color: white;
     flex-direction: column;
+    box-sizing: border-box;
 }
 
 #contenedor2{
@@ -76,16 +77,11 @@ img {
 } 
 
 .fecha{
-    color: #c8c7c1;
+    color: #113c5a;
 }
 
 #icono {
     width: 50px;
-}
-
-.email-icon{
-    background-color: white;
-    margin:0;
 }
 
 .fondo-icono{
