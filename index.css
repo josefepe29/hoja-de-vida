@@ -14,13 +14,14 @@ img {
 
     display:flex;
     justify-content: center;
-    align-items: stretch;
+    flex-wrap:wrap
 }
 
 #contenedor1{
     background: linear-gradient(white,#113c5a);
     color: white;
     flex-direction: column;
+    box-sizing: border-box;
 }
 
 #contenedor2{
@@ -57,7 +58,6 @@ img {
     border-radius: 10px;
     text-align: center;
     padding: 5px;
-    /* box-shadow: 20px -16px teal; */
     box-shadow: rgba(17,60,90, 0.4) 5px 5px,
         rgba(17,60,90, 0.3) 10px 10px,
         rgba(17,60,90, 0.2) 15px 15px,
@@ -77,16 +77,11 @@ img {
 } 
 
 .fecha{
-    color: #c8c7c1;
+    color: #113c5a;
 }
 
 #icono {
     width: 50px;
-}
-
-.email-icon{
-    background-color: white;
-    margin:0;
 }
 
 .fondo-icono{
