@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Ruwudu', serif;
+    box-sizing: border-box;
 }
 
 img {
@@ -18,15 +19,19 @@ img {
 }
 
 #contenedor1{
+    /* flex: 1; */
     background: linear-gradient(white,#113c5a);
     color: white;
     flex-direction: column;
     box-sizing: border-box;
+    min-width: 250px;
 }
 
 #contenedor2{
+    /* flex: 2; */
     margin-left: 20px;
     flex-direction: column;
+    min-width: 250px;;
 }
 
 .datos {
@@ -57,7 +62,7 @@ img {
     justify-content: center;
     border-radius: 10px;
     text-align: center;
-    padding: 5px;
+    padding: 10px;
     box-shadow: rgba(17,60,90, 0.4) 5px 5px,
         rgba(17,60,90, 0.3) 10px 10px,
         rgba(17,60,90, 0.2) 15px 15px,
@@ -70,6 +75,7 @@ img {
     color:black;
     display: grid;
     grid-template-columns: 45% 55%;
+    padding: 10px;
 }
 
 #contenedor1 h2{
@@ -111,6 +117,7 @@ img {
 .texto-info{
     width: 500px;
     text-align: justify;
+    overflow-wrap: break-word;
 }
 
 .habilidades {
@@ -230,4 +237,18 @@ img {
     margin: 7px 10px;
     border-radius: 10px;
     padding: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    #contenedor-principal{
+        width: 100%;
+    }
+    .texto-info, .contenido-lista{
+        width: 100%;
+    }
+    .fecha, .texto-2, .subtitulo{
+        width: 100%;
+        font-size: 30px;
+    }
+
 }
