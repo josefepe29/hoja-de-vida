@@ -8,6 +8,7 @@
 
 img {
     width: 45vh;
+    width: 20vw;
 
 }
 
@@ -19,7 +20,6 @@ img {
 }
 
 #contenedor1{
-    /* flex: 1; */
     background: linear-gradient(white,#113c5a);
     color: white;
     flex-direction: column;
@@ -28,7 +28,6 @@ img {
 }
 
 #contenedor2{
-    /* flex: 2; */
     margin-left: 20px;
     flex-direction: column;
     min-width: 250px;;
@@ -138,6 +137,7 @@ img {
 
 .logo{
     width: 60px;
+    cursor: pointer;
 }
 
 /*HABILIDADES*/
